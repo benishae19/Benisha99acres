@@ -19,25 +19,25 @@ public class buyer {
 
 	@FindBy(xpath="//a[text()='For Buyers']")
 	WebElement forBuyer;
-	public void forBuyer() {
+	public void clickForBuyer() {
 		forBuyer.click();
 	}
 	
 	@FindBy(xpath="//a[text()='Property in Hyderabad']")
 	WebElement property ;
-	public void property () {
+	public void clickProperty () {
 		property.click();
 	}
 	
 	@FindBy(xpath="//span[text()='Under construction']")
 	WebElement underCons;
-	public void underCons() { 
+	public void clickUnderCons() { 
 		underCons.click();
 	}
 	
 	@FindBy(xpath="//div[text()='Arkala Life']")
 	WebElement flat;
-	public void flat() {
+	public void clickFlat() {
 		flat.click();
 	}
 
